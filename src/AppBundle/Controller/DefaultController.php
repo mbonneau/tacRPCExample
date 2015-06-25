@@ -16,13 +16,5 @@ class DefaultController extends Controller
         return $this->render('default/index.html.twig');
     }
 
-    /**
-     * @Register("com.survos.wait")
-     */
 
-    public function wait($seconds=10)
-    {
-        sleep($seconds);
-        return "Waited " . $seconds . " seconds";
-    }
 }

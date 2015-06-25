@@ -88,4 +88,5 @@ voryx_thruway:
         trusted_port: '8081' # Bypasses all authentication.  Use this for trusted clients.
 #        authentication: false # true will load the AuthenticationManager
     locations:
-        bundles: ["AppBundle"]
+#        bundles: ["AppBundle"]
+
